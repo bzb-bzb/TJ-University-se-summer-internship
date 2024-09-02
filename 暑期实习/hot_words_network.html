@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+</head>
+<body >
+    <div id="823523e210824c528d05b27f5d9939bd" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_823523e210824c528d05b27f5d9939bd = echarts.init(
+            document.getElementById('823523e210824c528d05b27f5d9939bd'), 'white', {renderer: 'canvas'});
+        var option_823523e210824c528d05b27f5d9939bd = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "graph",
+            "layout": "force",
+            "symbolSize": 10,
+            "circular": {
+                "rotateLabel": false
+            },
+            "force": {
+                "repulsion": 8000,
+                "gravity": 0.2,
+                "edgeLength": 30,
+                "friction": 0.6,
+                "layoutAnimation": true
+            },
+            "label": {
+                "show": true,
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.2,
+                "type": "solid"
+            },
+            "roam": true,
+            "draggable": false,
+            "focusNodeAdjacency": true,
+            "data": [
+                {
+                    "name": "learning",
+                    "symbolSize": 21.849887129509398
+                },
+                {
+                    "name": "object",
+                    "symbolSize": 10
+                },
+                {
+                    "name": "image",
+                    "symbolSize": 10
+                },
+                {
+                    "name": "3d",
+                    "symbolSize": 10
+                },
+                {
+                    "name": "detection",
+                    "symbolSize": 10
+                },
+                {
+                    "name": "supervised",
+                    "symbolSize": 10
+                },
+                {
+                    "name": "video",
+                    "symbolSize": 10
+                },
+                {
+                    "name": "neural",
+                    "symbolSize": 10
+                },
+                {
+                    "name": "segmentation",
+                    "symbolSize": 10
+                },
+                {
+                    "name": "multi",
+                    "symbolSize": 10
+                },
+                {
+                    "name": "aware",
+                    "symbolSize": 10
+                },
+                {
+                    "name": "transformer",
+                    "symbolSize": 10
+                },
+                {
+                    "name": "self",
+                    "symbolSize": 10
+                },
+                {
+                    "name": "based",
+                    "symbolSize": 10
+                },
+                {
+                    "name": "estimation",
+                    "symbolSize": 10
+                },
+                {
+                    "name": "point",
+                    "symbolSize": 10
+                },
+                {
+                    "name": "semantic",
+                    "symbolSize": 10
+                },
+                {
+                    "name": "contrastive",
+                    "symbolSize": 10
+                }
+            ],
+            "edgeLabel": {
+                "show": false,
+                "margin": 8
+            },
+            "edgeSymbol": [
+                null,
+                null
+            ],
+            "edgeSymbolSize": 10,
+            "links": [
+                {
+                    "source": "learning",
+                    "target": "object",
+                    "lineStyle": {
+                        "width": 3.4903429574618414
+                    }
+                },
+                {
+                    "source": "learning",
+                    "target": "supervised",
+                    "lineStyle": {
+                        "width": 6.5208191203301125
+                    }
+                },
+                {
+                    "source": "aware",
+                    "target": "learning",
+                    "lineStyle": {
+                        "width": 1.4549914146182013
+                    }
+                },
+                {
+                    "source": "learning",
+                    "target": "self",
+                    "lineStyle": {
+                        "width": 3.080216848918031
+                    }
+                },
+                {
+                    "source": "aware",
+                    "target": "supervised",
+                    "lineStyle": {
+                        "width": 1.4549914146182013
+                    }
+                },
+                {
+                    "source": "self",
+                    "target": "supervised",
+                    "lineStyle": {
+                        "width": 9.487735836358526
+                    }
+                },
+                {
+                    "source": "aware",
+                    "target": "self",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "segmentation",
+                    "target": "supervised",
+                    "lineStyle": {
+                        "width": 2.718281828459045
+                    }
+                },
+                {
+                    "source": "semantic",
+                    "target": "supervised",
+                    "lineStyle": {
+                        "width": 2.398875293967098
+                    }
+                },
+                {
+                    "source": "segmentation",
+                    "target": "semantic",
+                    "lineStyle": {
+                        "width": 3.4903429574618414
+                    }
+                },
+                {
+                    "source": "object",
+                    "target": "video",
+                    "lineStyle": {
+                        "width": 2.117000016612675
+                    }
+                },
+                {
+                    "source": "object",
+                    "target": "segmentation",
+                    "lineStyle": {
+                        "width": 1.6487212707001282
+                    }
+                },
+                {
+                    "source": "segmentation",
+                    "target": "video",
+                    "lineStyle": {
+                        "width": 1.8682459574322223
+                    }
+                },
+                {
+                    "source": "detection",
+                    "target": "object",
+                    "lineStyle": {
+                        "width": 20.085536923187668
+                    }
+                },
+                {
+                    "source": "3d",
+                    "target": "supervised",
+                    "lineStyle": {
+                        "width": 1.2840254166877414
+                    }
+                },
+                {
+                    "source": "3d",
+                    "target": "segmentation",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "3d",
+                    "target": "self",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "segmentation",
+                    "target": "self",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "3d",
+                    "target": "object",
+                    "lineStyle": {
+                        "width": 4.4816890703380645
+                    }
+                },
+                {
+                    "source": "object",
+                    "target": "transformer",
+                    "lineStyle": {
+                        "width": 1.6487212707001282
+                    }
+                },
+                {
+                    "source": "object",
+                    "target": "point",
+                    "lineStyle": {
+                        "width": 1.6487212707001282
+                    }
+                },
+                {
+                    "source": "3d",
+                    "target": "detection",
+                    "lineStyle": {
+                        "width": 2.398875293967098
+                    }
+                },
+                {
+                    "source": "3d",
+                    "target": "transformer",
+                    "lineStyle": {
+                        "width": 1.2840254166877414
+                    }
+                },
+                {
+                    "source": "3d",
+                    "target": "point",
+                    "lineStyle": {
+                        "width": 3.080216848918031
+                    }
+                },
+                {
+                    "source": "detection",
+                    "target": "transformer",
+                    "lineStyle": {
+                        "width": 1.6487212707001282
+                    }
+                },
+                {
+                    "source": "detection",
+                    "target": "point",
+                    "lineStyle": {
+                        "width": 1.4549914146182013
+                    }
+                },
+                {
+                    "source": "point",
+                    "target": "transformer",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "contrastive",
+                    "target": "learning",
+                    "lineStyle": {
+                        "width": 5.0784190371800815
+                    }
+                },
+                {
+                    "source": "estimation",
+                    "target": "object",
+                    "lineStyle": {
+                        "width": 1.6487212707001282
+                    }
+                },
+                {
+                    "source": "image",
+                    "target": "semantic",
+                    "lineStyle": {
+                        "width": 1.4549914146182013
+                    }
+                },
+                {
+                    "source": "object",
+                    "target": "supervised",
+                    "lineStyle": {
+                        "width": 1.6487212707001282
+                    }
+                },
+                {
+                    "source": "multi",
+                    "target": "supervised",
+                    "lineStyle": {
+                        "width": 1.2840254166877414
+                    }
+                },
+                {
+                    "source": "supervised",
+                    "target": "transformer",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "multi",
+                    "target": "segmentation",
+                    "lineStyle": {
+                        "width": 1.2840254166877414
+                    }
+                },
+                {
+                    "source": "segmentation",
+                    "target": "transformer",
+                    "lineStyle": {
+                        "width": 1.4549914146182013
+                    }
+                },
+                {
+                    "source": "multi",
+                    "target": "transformer",
+                    "lineStyle": {
+                        "width": 2.117000016612675
+                    }
+                },
+                {
+                    "source": "multi",
+                    "target": "semantic",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "semantic",
+                    "target": "transformer",
+                    "lineStyle": {
+                        "width": 1.4549914146182013
+                    }
+                },
+                {
+                    "source": "image",
+                    "target": "supervised",
+                    "lineStyle": {
+                        "width": 2.117000016612675
+                    }
+                },
+                {
+                    "source": "image",
+                    "target": "self",
+                    "lineStyle": {
+                        "width": 1.2840254166877414
+                    }
+                },
+                {
+                    "source": "detection",
+                    "target": "learning",
+                    "lineStyle": {
+                        "width": 1.4549914146182013
+                    }
+                },
+                {
+                    "source": "multi",
+                    "target": "video",
+                    "lineStyle": {
+                        "width": 1.6487212707001282
+                    }
+                },
+                {
+                    "source": "3d",
+                    "target": "learning",
+                    "lineStyle": {
+                        "width": 1.8682459574322223
+                    }
+                },
+                {
+                    "source": "learning",
+                    "target": "video",
+                    "lineStyle": {
+                        "width": 2.398875293967098
+                    }
+                },
+                {
+                    "source": "aware",
+                    "target": "video",
+                    "lineStyle": {
+                        "width": 1.2840254166877414
+                    }
+                },
+                {
+                    "source": "contrastive",
+                    "target": "video",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "aware",
+                    "target": "contrastive",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "image",
+                    "target": "transformer",
+                    "lineStyle": {
+                        "width": 1.6487212707001282
+                    }
+                },
+                {
+                    "source": "point",
+                    "target": "supervised",
+                    "lineStyle": {
+                        "width": 1.2840254166877414
+                    }
+                },
+                {
+                    "source": "point",
+                    "target": "segmentation",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "aware",
+                    "target": "transformer",
+                    "lineStyle": {
+                        "width": 1.2840254166877414
+                    }
+                },
+                {
+                    "source": "aware",
+                    "target": "estimation",
+                    "lineStyle": {
+                        "width": 1.4549914146182013
+                    }
+                },
+                {
+                    "source": "estimation",
+                    "target": "transformer",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "image",
+                    "target": "segmentation",
+                    "lineStyle": {
+                        "width": 1.4549914146182013
+                    }
+                },
+                {
+                    "source": "multi",
+                    "target": "neural",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "image",
+                    "target": "multi",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "multi",
+                    "target": "self",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "3d",
+                    "target": "multi",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "3d",
+                    "target": "aware",
+                    "lineStyle": {
+                        "width": 2.117000016612675
+                    }
+                },
+                {
+                    "source": "3d",
+                    "target": "estimation",
+                    "lineStyle": {
+                        "width": 1.6487212707001282
+                    }
+                },
+                {
+                    "source": "aware",
+                    "target": "multi",
+                    "lineStyle": {
+                        "width": 1.6487212707001282
+                    }
+                },
+                {
+                    "source": "estimation",
+                    "target": "multi",
+                    "lineStyle": {
+                        "width": 1.6487212707001282
+                    }
+                },
+                {
+                    "source": "image",
+                    "target": "learning",
+                    "lineStyle": {
+                        "width": 1.8682459574322223
+                    }
+                },
+                {
+                    "source": "learning",
+                    "target": "semantic",
+                    "lineStyle": {
+                        "width": 1.4549914146182013
+                    }
+                },
+                {
+                    "source": "contrastive",
+                    "target": "image",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "contrastive",
+                    "target": "semantic",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "learning",
+                    "target": "transformer",
+                    "lineStyle": {
+                        "width": 1.2840254166877414
+                    }
+                },
+                {
+                    "source": "transformer",
+                    "target": "video",
+                    "lineStyle": {
+                        "width": 1.2840254166877414
+                    }
+                },
+                {
+                    "source": "contrastive",
+                    "target": "transformer",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "3d",
+                    "target": "image",
+                    "lineStyle": {
+                        "width": 1.6487212707001282
+                    }
+                },
+                {
+                    "source": "multi",
+                    "target": "object",
+                    "lineStyle": {
+                        "width": 2.117000016612675
+                    }
+                },
+                {
+                    "source": "learning",
+                    "target": "neural",
+                    "lineStyle": {
+                        "width": 1.2840254166877414
+                    }
+                },
+                {
+                    "source": "based",
+                    "target": "learning",
+                    "lineStyle": {
+                        "width": 1.4549914146182013
+                    }
+                },
+                {
+                    "source": "neural",
+                    "target": "video",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "based",
+                    "target": "video",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "based",
+                    "target": "neural",
+                    "lineStyle": {
+                        "width": 1.2840254166877414
+                    }
+                },
+                {
+                    "source": "image",
+                    "target": "neural",
+                    "lineStyle": {
+                        "width": 1.4549914146182013
+                    }
+                },
+                {
+                    "source": "aware",
+                    "target": "image",
+                    "lineStyle": {
+                        "width": 1.4549914146182013
+                    }
+                },
+                {
+                    "source": "based",
+                    "target": "image",
+                    "lineStyle": {
+                        "width": 1.4549914146182013
+                    }
+                },
+                {
+                    "source": "aware",
+                    "target": "neural",
+                    "lineStyle": {
+                        "width": 1.2840254166877414
+                    }
+                },
+                {
+                    "source": "aware",
+                    "target": "based",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "image",
+                    "target": "object",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "detection",
+                    "target": "image",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "semantic",
+                    "target": "video",
+                    "lineStyle": {
+                        "width": 1.2840254166877414
+                    }
+                },
+                {
+                    "source": "based",
+                    "target": "transformer",
+                    "lineStyle": {
+                        "width": 1.2840254166877414
+                    }
+                },
+                {
+                    "source": "learning",
+                    "target": "segmentation",
+                    "lineStyle": {
+                        "width": 1.6487212707001282
+                    }
+                },
+                {
+                    "source": "object",
+                    "target": "self",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "object",
+                    "target": "semantic",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "self",
+                    "target": "semantic",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "multi",
+                    "target": "point",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "learning",
+                    "target": "point",
+                    "lineStyle": {
+                        "width": 2.117000016612675
+                    }
+                },
+                {
+                    "source": "contrastive",
+                    "target": "segmentation",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "contrastive",
+                    "target": "point",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "3d",
+                    "target": "neural",
+                    "lineStyle": {
+                        "width": 1.2840254166877414
+                    }
+                },
+                {
+                    "source": "supervised",
+                    "target": "video",
+                    "lineStyle": {
+                        "width": 1.2840254166877414
+                    }
+                },
+                {
+                    "source": "based",
+                    "target": "supervised",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "self",
+                    "target": "video",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "based",
+                    "target": "self",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "3d",
+                    "target": "video",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "point",
+                    "target": "video",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "neural",
+                    "target": "supervised",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "neural",
+                    "target": "self",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "3d",
+                    "target": "contrastive",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "contrastive",
+                    "target": "supervised",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "point",
+                    "target": "self",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "contrastive",
+                    "target": "self",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "detection",
+                    "target": "multi",
+                    "lineStyle": {
+                        "width": 1.4549914146182013
+                    }
+                },
+                {
+                    "source": "detection",
+                    "target": "supervised",
+                    "lineStyle": {
+                        "width": 2.117000016612675
+                    }
+                },
+                {
+                    "source": "detection",
+                    "target": "self",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "self",
+                    "target": "transformer",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "detection",
+                    "target": "segmentation",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "based",
+                    "target": "object",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "contrastive",
+                    "target": "estimation",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "learning",
+                    "target": "multi",
+                    "lineStyle": {
+                        "width": 1.2840254166877414
+                    }
+                },
+                {
+                    "source": "detection",
+                    "target": "video",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "based",
+                    "target": "detection",
+                    "lineStyle": {
+                        "width": 1.2840254166877414
+                    }
+                },
+                {
+                    "source": "image",
+                    "target": "video",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "neural",
+                    "target": "point",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "aware",
+                    "target": "object",
+                    "lineStyle": {
+                        "width": 1.2840254166877414
+                    }
+                },
+                {
+                    "source": "aware",
+                    "target": "detection",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "neural",
+                    "target": "semantic",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "aware",
+                    "target": "semantic",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "estimation",
+                    "target": "learning",
+                    "lineStyle": {
+                        "width": 1.2840254166877414
+                    }
+                },
+                {
+                    "source": "estimation",
+                    "target": "supervised",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "estimation",
+                    "target": "self",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "contrastive",
+                    "target": "object",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "3d",
+                    "target": "based",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "based",
+                    "target": "point",
+                    "lineStyle": {
+                        "width": 1.1331484530668263
+                    }
+                },
+                {
+                    "source": "estimation",
+                    "target": "neural",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "based",
+                    "target": "estimation",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                },
+                {
+                    "source": "estimation",
+                    "target": "point",
+                    "lineStyle": {
+                        "width": 1.0
+                    }
+                }
+            ]
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "\u70ed\u70b9\u8bcd\u6c47\u7f51\u7edc\u5173\u7cfb\u56fe",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "feature": {
+            "saveAsImage": {
+                "type": "png",
+                "backgroundColor": "auto",
+                "connectedBackgroundColor": "#fff",
+                "show": true,
+                "title": "\u4fdd\u5b58\u4e3a\u56fe\u7247",
+                "pixelRatio": 1
+            },
+            "restore": {
+                "show": true,
+                "title": "\u8fd8\u539f"
+            },
+            "dataView": {
+                "show": true,
+                "title": "\u6570\u636e\u89c6\u56fe",
+                "readOnly": false,
+                "lang": [
+                    "\u6570\u636e\u89c6\u56fe",
+                    "\u5173\u95ed",
+                    "\u5237\u65b0"
+                ],
+                "backgroundColor": "#fff",
+                "textareaColor": "#fff",
+                "textareaBorderColor": "#333",
+                "textColor": "#000",
+                "buttonColor": "#c23531",
+                "buttonTextColor": "#fff"
+            },
+            "dataZoom": {
+                "show": true,
+                "title": {
+                    "zoom": "\u533a\u57df\u7f29\u653e",
+                    "back": "\u533a\u57df\u7f29\u653e\u8fd8\u539f"
+                },
+                "icon": {},
+                "filterMode": "filter"
+            },
+            "magicType": {
+                "show": true,
+                "type": [
+                    "line",
+                    "bar",
+                    "stack",
+                    "tiled"
+                ],
+                "title": {
+                    "line": "\u5207\u6362\u4e3a\u6298\u7ebf\u56fe",
+                    "bar": "\u5207\u6362\u4e3a\u67f1\u72b6\u56fe",
+                    "stack": "\u5207\u6362\u4e3a\u5806\u53e0",
+                    "tiled": "\u5207\u6362\u4e3a\u5e73\u94fa"
+                },
+                "icon": {}
+            }
+        }
+    }
+};
+        chart_823523e210824c528d05b27f5d9939bd.setOption(option_823523e210824c528d05b27f5d9939bd);
+    </script>
+</body>
+</html>
